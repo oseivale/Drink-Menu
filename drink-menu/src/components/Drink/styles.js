@@ -5,6 +5,7 @@ export const DrinkSection = styled.section`
     width: 100%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-evenly;
 `
 
 export const FeatureImg = styled.img`

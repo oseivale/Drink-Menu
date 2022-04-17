@@ -10,7 +10,7 @@ export const CardContainer = styled.section`
 export const SelectionContainer = styled.ul`
     display: flex;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 1200px;
     width: 100%;
 
 `

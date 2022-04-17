@@ -1,17 +1,20 @@
 import styled from 'styled-components';
 
 export const CardWrapper = styled.div`
-    width: 200px;
+    width: 250px;
     height: auto;
     margin: 3rem;
     box-shadow: 0 1.5px 3.5px 1px rgba(0, 0, 0, 0.3);
     padding: 2rem 1rem;
 `
 export const CardImg = styled.img`
-    width: 150px;
+    width: 180px;
     margin-bottom: 1rem;
-
 ` 
+
+export const DrinkTitle = styled.h4`
+    font-weight: bold;
+`
 
 export const CardButton = styled.button`
     background-color: #6A57D5;
@@ -21,7 +24,7 @@ export const CardButton = styled.button`
     border-radius: 25px;
     margin: 0.3rem;
     font-size: 0.9rem;
-    width: 100%;
+    width: 85%;
 
     &:hover {
         background-color: blue;

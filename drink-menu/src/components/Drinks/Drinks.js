@@ -13,6 +13,7 @@ const Drinks = ({ drinks, getDrink, addToCart }) => {
                         key={drink.idDrink}
                         thumbnail={drink.strDrinkThumb} 
                         drinkName={drink.strDrink}
+                        drinkDescription={drink.strAlcoholic}
                         id={drink.idDrink}
                         getDrink={getDrink} 
                         drinks={drinks}

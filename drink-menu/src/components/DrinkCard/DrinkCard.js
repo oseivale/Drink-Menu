@@ -1,13 +1,14 @@
-import { CardWrapper, CardImg, CardButton, CardButtonWrapper } from './styles';
+import { CardWrapper, CardImg, CardButton, CardButtonWrapper, DrinkTitle } from './styles';
 import { Link } from "react-router-dom";
 
-const DrinkCard = ({ drinks, thumbnail, drinkName, id, addToCart }) => {
+const DrinkCard = ({ drinks, thumbnail, drinkName, drinkDescription, id, addToCart }) => {
     // console.log('DRINK', drinks)
 
     return (
         <CardWrapper>
             <CardImg src={thumbnail} alt="" />
-            <h4>{drinkName}</h4>
+            <DrinkTitle>{drinkName}</DrinkTitle>
+            <p>{drinkDescription}</p>
             <CardButtonWrapper>
                 <div>
                     <Link to={`/drinks/${id}`}>
